@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* position: absolute basically lifts the element up in its layer and then the element can move freely anywhere in that layer.
+for example below is car1 which is absolute, means now its lifted up at 1st floor (for example) and now its prev position is empty so
+car 2 will move to its prev position, that means now car1 is on top of car2.*/
+#car1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(46, 164, 164);
+    position: absolute;
+    left: 20%;
+}
+/*If you make car2 position absolute as well then it will be lifted at 2nd floor (its own layer), becoz car 1 will occupy 1st floor as it was ahead of car2, now car2 
+can also move anywhere it wants in its own layer*/
+#car2{
+    width: 125px;
+    height: 125px;
+    background-color: blue;
+    position: absolute;
+    left: 30%;
+}
+#car3{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 40%;
+}

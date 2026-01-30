@@ -1,0 +1,1 @@
+Listens to a particular event like mouse click, mouse hover, move mouse out of an element

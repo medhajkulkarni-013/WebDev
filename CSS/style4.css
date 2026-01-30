@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 60%;
+    height: 60%;
+    background-color: aqua;
+    display: flex; /* will create a horizontal and vertical axis and puts the children element on that axis next to each other */
+    justify-content: space-evenly; /* Will work along the width */
+    align-items: center; /* Will work along the height */
+}
+
+#box1{
+    width: 125px;
+    height: 125px;
+    background-color: blue;
+}
+
+#box2{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+#box3{
+    width: 175px;
+    height: 175px;
+    background-color: chocolate;
+}

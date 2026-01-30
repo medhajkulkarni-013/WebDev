@@ -1,0 +1,2 @@
+querySelector will only select one html element of a particular tag, querySelectorAll will select all the 
+elements of a particular type and stor it in a NodeList.

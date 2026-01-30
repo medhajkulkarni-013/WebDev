@@ -1,0 +1,10 @@
+// This chapter is basically about
+
+async await >> promise chains >> callback hell
+
+SYNCHRONOUS means that every instruction in a program is executed in the order its written and every instruction waits 
+for its previous instruction to be executed.
+
+In SYNCHRONOUS programming sometimes imp instructions get blocked because of prev instructions, which causes 
+delays in UI. ASYNCHRONOUS code execution allows to execute next instructions immediately and doesnt block the 
+flow. 

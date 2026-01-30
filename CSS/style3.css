@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/*Now car1, car2 and car3 are all absolute that means they are lifted in their own layer (1st floor, 2nd floor, 3rd floor), but they cannot move
+freely anywhere on the screen because i have made their parent i.e. main as position: relative, which makes these cars move freely only within 
+their parent div (main)*/
+
+/*Note: if a div is absolute then its by default relative as well to its child div
+  Note: top, left etc wont work unless you use position*/
+#main{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(171, 208, 240);
+    position: relative;
+}
+#car1{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    position: absolute;
+    left: 70%;
+}
+#car2{
+    width: 125px;
+    height: 125px;
+    background-color: blue;
+    position: absolute;
+    left: 40%;
+}
+#car3{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    position: absolute;
+}
