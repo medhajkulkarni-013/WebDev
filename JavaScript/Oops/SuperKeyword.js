@@ -12,7 +12,7 @@ class Person{
 
 class Engineer extends Person{
     constructor(){
-
+        super();
     }
     work(){
         console.log("Solving Problems and Building Something");

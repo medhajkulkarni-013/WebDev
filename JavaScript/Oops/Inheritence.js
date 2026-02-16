@@ -18,8 +18,15 @@ class Engineer extends Person{
         console.log("Solving Problems and Building Something");
     }
 }
-
-let e1 = new Engineer(); // e1 object of Engineer class inherits properties like eat,sleep from parent class Person.
+class Doctor extends Person{
+    work(){
+        console.log("Treat Patients!!")
+    }
+}
+let e1 = new Engineer(); // e1 is a object of Engineer class inherits properties like eat,sleep from parent class Person.
 e1.eat();
 e1.sleep();
 e1.work(); // If a child class and parent class have a same method or property then child class's property or method will be accessed (method overriding)  
+
+let d1 = new Doctor();
+d1.work();
